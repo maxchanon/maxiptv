@@ -1,36 +1,6 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audiod",NAME="audio_tha",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2",LANGUAGE="tha",URI="https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/6.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYWkzZmQxb2gzMjV5LmNsb3VkZnJvbnQubmV0L29yaWdpbi9saXZlL21haW4vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTYwOTQxMjc0N319fV19&Signature=EVxaVnKmEJwlhXJA04TBNVyfr0zx39lwK6VfY0r7xxgfAzbjsLq5h1UTrRmtApxNl3BgQA5bm-BpXFgPQ9tneCVeqH7~lFiVZoAV5EEyZzOjjw0pASPSupexGrJylpcqa3zQLrjbrTfkddcR7Bot~GaRl6IAdP5vUziMRTVw~DChE4hV~wR0jkYYQ~i~E63ke3BqI75wcVZtXw85Rr6uylPVyykTHfeMiMmb2xdv1q-1GIYZCyLZH3QjjmtGvInJb7H4z2H915ihAVyhID9t7HEf4S3n5aidQ0H0~k1yvAygYkimB6bAO6GmzBJTsc3vRfJ9qh73s0EHMEBBiW8ewQ__&Key-Pair-Id=APKAJFBTWETXLROKW43A"
+#EXT-X-STREAM-INF:BANDWIDTH=1147048,AVERAGE-BANDWIDTH=1147048,CODECS="avc1.64001e,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=640x360,AUDIO="audiod",SUBTITLES="subs"
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/2.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYWkzZmQxb2gzMjV5LmNsb3VkZnJvbnQubmV0L29yaWdpbi9saXZlL21haW4vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTYwOTQxMjc0N319fV19&Signature=EVxaVnKmEJwlhXJA04TBNVyfr0zx39lwK6VfY0r7xxgfAzbjsLq5h1UTrRmtApxNl3BgQA5bm-BpXFgPQ9tneCVeqH7~lFiVZoAV5EEyZzOjjw0pASPSupexGrJylpcqa3zQLrjbrTfkddcR7Bot~GaRl6IAdP5vUziMRTVw~DChE4hV~wR0jkYYQ~i~E63ke3BqI75wcVZtXw85Rr6uylPVyykTHfeMiMmb2xdv1q-1GIYZCyLZH3QjjmtGvInJb7H4z2H915ihAVyhID9t7HEf4S3n5aidQ0H0~k1yvAygYkimB6bAO6GmzBJTsc3vRfJ9qh73s0EHMEBBiW8ewQ__&Key-Pair-Id=APKAJFBTWETXLROKW43A
