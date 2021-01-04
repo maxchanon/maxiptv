@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=AUTO,RESOLUTION=1280x720,CODECS="avc:h264,mp4"
+https://cdnlive.goprimetime.info/feed/LC1/index.m3u8
