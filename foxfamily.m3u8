@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-SESSION-DATA
+#EXT-X-STREAM-INF:DECODER=sw
+https://cdnlive.goprimetime.info/feed/LC1/tracks-v1a1/mono.m3u8
