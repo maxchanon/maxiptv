@@ -1,5 +1,11 @@
 #EXTM3U
-#EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=480x360
-https://cdnlive.goprimetime.info/feed/LC1/index.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1500000,RESOLUTION=1280x720
-https://cdnlive.goprimetime.info/feed/LC1/index.m3u8
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:9.209200,
+https://cdn-sv11.livedoomovie.com/hls4/b8acde1fafb38dcd1f2feec2ace92778/b8acde1fafb38dcd1f2feec2ace92778-100.html?msKey=m3
+#EXTINF:9.576233,
+https://cdn-sv11.livedoomovie.com/hls4/b8acde1fafb38dcd1f2feec2ace92778/b8acde1fafb38dcd1f2feec2ace92778-221.html?msKey=m3
+#EXTINF:8.975633,
+https://cdn-sv11.livedoomovie.com/hls4/b8acde1fafb38dcd1f2feec2ace92778/b8acde1fafb38dcd1f2feec2ace92778-322.html?msKey=m3
+#EXTINF:8.842167,
