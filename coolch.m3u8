@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=AUTO,RESOLUTION=1280x720,CODECS="avc:h264,mp4"
-http://119.59.125.74/stream/totnew.php?channel_id=205930751d5743e2be719ed1dff8970f
+http://119.59.125.74/stream/totnew.php?channel_id=205930751d5743e2be719ed1dff8970f&.m3u8
